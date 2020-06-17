@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.savelock-box{
+    width: 320px;
+    height: 520px;
+    background-color: #fff;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+
+h1{
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 22px;
+    color: dodgerblue;
+}
+
+.sub-head{
+   font-size: 12px; 
+   color: #6c7d6c;
+   margin-bottom: 20px;
+}
+
+.texts {
+    font-size: 12px; 
+   color: #343a40;
+   margin-bottom: 20px;
+}
+
+
+.savelock-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.savelock-box input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.savelock-box input[type="date"]
+
+{
+    border: none;
+    border-bottom: 1px solid #adb5bd;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #6c7d6c;
+    font-size: 16px;
+}
+.savelock-box input[list="date"], input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #adb5bd;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #6c7d6c;
+    font-size: 16px;
+}
+.savelock-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.savelock-box input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.savelock-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(20, 4, 4);
+}
