@@ -7,7 +7,9 @@ body{
   margin:auto;
   padding:0;
   display:flex;
+  height:100vh;
   width:100%;
+  background-color: #062963;
   align-items: center;
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -18,13 +20,18 @@ body{
   color:white;
   padding:1rem;
   width:100%;
+  height:100%;
   margin:0 auto;
 }
 
 .burger{
   float:right;
   margin-top:-9px;
+  transition:all 1s ease;
   
+}
+.burger:hover{
+  transform:rotate(360deg)
 }
 .burger div{
   width:25px;
@@ -45,6 +52,7 @@ body{
 }
 .second-cont{
   background: white;
+  width:100%;
   color:rgb(2, 2, 2);
   padding:1.5rem;
   margin:1.5rem auto;
@@ -62,30 +70,41 @@ body{
 .content p{
   font-size: 0.7rem;
 }
-button{
+.button{
   display:inline-block;
   margin:1rem 0;
   padding:0.8rem 1rem;
   width:80%;
   cursor:pointer;
   border:none;
+  text-decoration: none;
   border-radius:10px 10px 10px 0;
   background-color: #2295f2;
   color:white;
   transition:all 500ms ease;
 }
-button:focus{
+.button:focus{
   outline:none;
 }
-button:hover{
+.button:hover{
   transform:scale(1.1);
   background:#2296ff ;
 }
-@media only screen and (min-width:800px){
+@media only screen and (min-width:543px){
+  .second-cont{
+    width:80%;
+  }
+}
+@media only screen and (min-width:1024px){
   .second-cont{
     width:50%;
   }
   .illustration{
     width:60%;
+  }
+}
+@media only screen and (max-width:333px){
+  button{
+    font-size: 11px;
   }
 }
