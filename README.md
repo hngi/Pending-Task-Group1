@@ -3,7 +3,7 @@
 
 2. Clone this repo ( git clone https://github.com/hngi/Pending-Task-Group1)
 
-open git bash for windows or terminal for mac (cd pending-task-Group1) you can achieve this by dragging the folder in the command line after cd OR right click the pending-task-group1 folder and open with git bash or terminal 
+   open git bash for windows or terminal for mac (cd pending-task-Group1) you can achieve this by dragging the folder in the      command line after cd OR right click the pending-task-group1 folder and open with git bash or terminal 
 
 3. To add upstream so that whenever there is a change you can pull the latest changes. (Git remote add upstream https://github.com/hngi/Pending-Task-Group1), to pull changes (git pull upstream Pending-Task-Group1)
 4. Commit your changes 
