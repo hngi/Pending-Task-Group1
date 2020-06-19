@@ -248,6 +248,7 @@ button:hover{
 .lock p{
   font-size: 22px;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .lock li{
