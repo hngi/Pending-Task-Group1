@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title> Interest Calculator </title>
+    <link rel="stylesheet" type="text/css" href="interest calculator.css">   
+</head>
+    <body>
+    <div class="savelock-box">
+    
+        <h1>Interest Calculator</h1>
+        <p class="sub-head">Find out how much you'll have after investment</p><br><br>
+
+            <form>
+            <p class="texts">Amount to lock</p>
+            <input type="text" name="amount" placeholder="2500">
+            <p class="texts">Duration</p>
+            <input list="date" placeholder="Select duration of lock">
+                <datalist id="date">
+                    <option value="10-30 days"></option>
+                    <option value="31-60 days"></option>
+                    <option value="61-90 days"></option>
+                    <option value="91 days to 2 years"></option>
+                    <option value="Over 2 years"></option>
+                </datalist>
+            <p class="texts">Payback date</p>
+            <input type="date" name="date" placeholder="Select date"> 
+            <input type="submit" name="submit" value="CALCULATE INTEREST">
+            
+
+            </form>
+        
+        
+        </div>
+    
+    </body>
+</html>
